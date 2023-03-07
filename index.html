@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+    <title>Churrascômetro</title>
+</head>
+<body>
+    <div class="img-fundo"><img src='./img/churrasco.png'></div>
+
+    <div class="content">
+        <h1>Churrascômetro</h1>
+        <input type="number" id="homem" name="homem" placeholder="Quantidade de homens.">
+        <input type="number" id="mulher" name="mulher" placeholder="Quantidade de mulheres.">
+        <input type="number" id="crianca" name="crianca" placeholder="Quantidade de crianças.">
+        <input type="number" id="duracao" name="duracao" placeholder="Tempo do churrasco em horas.">
+
+        <button onclick="calcular()">Calcular</button>
+        
+        <div id="resultado"></div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body{
+    background:linear-gradient(to right,  #8360c3, #2ebf91);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    width: 300px;
+    background: rgb(223, 223, 223);
+    padding: 20px;
+    margin: auto;
+    margin-top: 260px;
+    border-radius: 10px;
+    position: relative;
+}
+h1{
+    margin: 22px;
+    margin-top: 0px;
+}
+input{
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.937);
+    border-width:1px;
+}
+button{
+    background: linear-gradient(to left, #131e42, #1a2f38);
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.result-block-meet{
+    display: flex;
+}
+
+.result-block-bear{
+    display: flex;
+}
+
+.result-block-soda{
+    display: flex;
+}
+
+.result-block-meet img {
+    width: 2rem;
+    margin: 0;
+    margin-right: 0.5rem;
+    margin-bottom: 5px;
+}
+.result-block-bear img{
+    width: 2rem;
+    margin: 0;
+    margin-right: 0.5rem;
+    margin-bottom: 5px;
+}
+.result-block-soda img{
+    width: 2rem;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: -3.5px;
+    margin-right: 0.7rem;
+}
+
+.img-fundo{
+    position: absolute;
+    top:0;
+    width: 99%;
+    justify-content: center;
+    margin: auto;
+    opacity: .2;
+    text-align: center;
+    margin-top: 50px;
+}
