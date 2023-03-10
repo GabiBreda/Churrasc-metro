@@ -70,9 +70,7 @@ button{
     position: absolute;
     top:0;
     width: 99%;
-    justify-content: center;
     margin: auto;
     opacity: .2;
-    text-align: center;
     margin-top: 50px;
 }
